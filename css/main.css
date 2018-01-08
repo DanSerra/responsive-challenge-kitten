@@ -1,0 +1,12 @@
+
+.container {
+    background-image: url(../assets/sunny-day.jpg);
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    background-image: url(../assets/night.jpg);
+    width: 100%;
+  }
+}
