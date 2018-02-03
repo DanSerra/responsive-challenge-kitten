@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  .col-kitten {
+    background-image: url("../assets/images/kitten-small.png");
+    height: 25vh;
+    margin-top: 50vh;
+    margin-left: 50vh;
+  }
+
+  .background {
+    background-image: url("../assets/images/night.jpg");
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .col-kitten {
+    background-image: url("../assets/images/kitten-large.png");
+    height: 25vh;
+    margin-top: 25vh;
+    margin-left: 50vh;
+  }
+  .background {
+    background-image: url("../assets/images/dawn.png");
+    height: 100vh;
+  }
+}

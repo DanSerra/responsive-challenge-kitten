@@ -1,12 +1,15 @@
-
-.container {
-    background-image: url(../assets/sunny-day.jpg);
+.background {
+    background-image: url("../assets/images/sunny-day.jpg");
+    background-size: cover;
+    background-repeat: no-reapet;
+    height: 100vh;
 }
 
-
-@media (max-width: 768px) {
-  .container {
-    background-image: url(../assets/night.jpg);
-    width: 100%;
-  }
+.col-kitten {
+    background-image: url("../assets/images/kitten-medium.png");
+    background-repeat: round;
+    background-size: cover;
+    height: 25vh;
+    margin-top: 30vh;
+    margin-left: 50vh;
 }
